@@ -1,0 +1,21 @@
+em {
+  color: orange;
+}
+
+code {
+  background-color: silver;
+  border-radius: 4px;
+  padding-inline: 8px;
+
+  &:hover {
+    background-color: gainsboro;
+  }
+}
+
+dt > code {
+  background-color: aquamarine;
+
+  &:hover {
+    background-color: lightgreen;
+  }
+}
